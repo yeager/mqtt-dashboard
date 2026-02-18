@@ -1,6 +1,6 @@
 [project]
 name = "mqtt-dashboard"
-version = "0.1.0"
+version = "0.1.1"
 description = "MQTT dashboard with GTK4/Adwaita"
 license = "GPL-3.0-or-later"
 requires-python = ">=3.10"
