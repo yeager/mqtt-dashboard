@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MQTT Dashboard
+Comment=Real-time MQTT monitoring dashboard
+Exec=mqtt-dashboard
+Icon=io.github.yeager.MqttDashboard
+Terminal=false
+Type=Application
+Categories=Network;Monitor;

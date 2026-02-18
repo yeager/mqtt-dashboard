@@ -1,0 +1,11 @@
+[project]
+name = "mqtt-dashboard"
+version = "0.1.0"
+description = "MQTT dashboard with GTK4/Adwaita"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.10"
+dependencies = ["PyGObject>=3.42", "paho-mqtt>=1.6"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
