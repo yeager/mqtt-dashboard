@@ -382,7 +382,7 @@ class MqttDashboardWindow(Adw.ApplicationWindow):
             comments=_("MQTT dashboard with real-time monitoring"),
         )
         about.add_link(_("Translations"), "https://www.transifex.com/danielnylander/mqtt-dashboard")
-        about.present()
+        about.present(self)
 
 
 class MqttDashboardApp(Adw.Application):
