@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"POT-Creation-Date: 2026-02-22 06:25+0100\n"
 "PO-Revision-Date: 2026-02-18 09:21+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304968/sv/)\n"
@@ -21,83 +21,104 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/mqtt_dashboard/main.py:127
+#: src/mqtt_dashboard/main.py:148
 msgid "Waiting..."
 msgstr "Väntar..."
 
-#: src/mqtt_dashboard/main.py:146
+#: src/mqtt_dashboard/main.py:167
 msgid "MQTT Dashboard"
 msgstr "MQTT-kontrollpanel"
 
-#: src/mqtt_dashboard/main.py:158
+#: src/mqtt_dashboard/main.py:179
 msgid "Save layout"
 msgstr "Spara layout"
 
-#: src/mqtt_dashboard/main.py:165
+#: src/mqtt_dashboard/main.py:186
 msgid "Broker:"
 msgstr "Broker:"
 
-#: src/mqtt_dashboard/main.py:168
+#: src/mqtt_dashboard/main.py:189
 msgid "Port:"
 msgstr "Port:"
 
-#: src/mqtt_dashboard/main.py:172 src/mqtt_dashboard/main.py:245
+#: src/mqtt_dashboard/main.py:193 src/mqtt_dashboard/main.py:266
 msgid "Connect"
 msgstr "Anslut"
 
-#: src/mqtt_dashboard/main.py:176 src/mqtt_dashboard/main.py:246
-#: src/mqtt_dashboard/main.py:274
+#: src/mqtt_dashboard/main.py:197 src/mqtt_dashboard/main.py:267
+#: src/mqtt_dashboard/main.py:295
 msgid "Disconnected"
 msgstr "Frånkopplad"
 
-#: src/mqtt_dashboard/main.py:182
+#: src/mqtt_dashboard/main.py:203
 msgid "Subscribe:"
 msgstr "Prenumerera:"
 
-#: src/mqtt_dashboard/main.py:190
+#: src/mqtt_dashboard/main.py:211
 msgid "Subscribe"
 msgstr "Prenumerera"
 
-#: src/mqtt_dashboard/main.py:197
+#: src/mqtt_dashboard/main.py:218
 msgid "Publish:"
 msgstr "Publicera:"
 
-#: src/mqtt_dashboard/main.py:200
+#: src/mqtt_dashboard/main.py:221
 msgid "message"
 msgstr "meddelande"
 
-#: src/mqtt_dashboard/main.py:202
+#: src/mqtt_dashboard/main.py:223
 msgid "Send"
 msgstr "Skicka"
 
-#: src/mqtt_dashboard/main.py:213
+#: src/mqtt_dashboard/main.py:234
 msgid "Message Log"
 msgstr "Meddelandelogg"
 
-#: src/mqtt_dashboard/main.py:239
+#: src/mqtt_dashboard/main.py:260
 msgid "paho-mqtt not installed!"
 msgstr "paho-mqtt inte installerad!"
 
-#: src/mqtt_dashboard/main.py:264
+#: src/mqtt_dashboard/main.py:285
 msgid "Disconnect"
 msgstr "Koppla från"
 
-#: src/mqtt_dashboard/main.py:265
+#: src/mqtt_dashboard/main.py:286
 msgid "Connecting..."
 msgstr "Ansluter..."
 
-#: src/mqtt_dashboard/main.py:268
+#: src/mqtt_dashboard/main.py:289
 msgid "Connected"
 msgstr "Ansluten"
 
-#: src/mqtt_dashboard/main.py:381
+#: src/mqtt_dashboard/main.py:402
 msgid "translator-credits"
 msgstr "Daniel Nylander <po@danielnylander.se>, 2026."
 
-#: src/mqtt_dashboard/main.py:382
+#: src/mqtt_dashboard/main.py:403
 msgid "MQTT dashboard with real-time monitoring"
 msgstr "MQTT-kontrollpanel med realtidsövervakning"
 
-#: src/mqtt_dashboard/main.py:384
+#: src/mqtt_dashboard/main.py:405
 msgid "Translations"
 msgstr "Översättningar"
+
+#: src/mqtt_dashboard/main.py:440
+msgid "Welcome"
+msgstr ""
+
+#: src/mqtt_dashboard/main.py:445
+msgid "Welcome to MQTT Dashboard"
+msgstr ""
+
+#: src/mqtt_dashboard/main.py:446
+msgid ""
+"Monitor MQTT topics and messages.\n"
+"\n"
+"✓ Subscribe to MQTT topics\n"
+"✓ Publish messages\n"
+"✓ Visual topic tree"
+msgstr ""
+
+#: src/mqtt_dashboard/main.py:447
+msgid "Get Started"
+msgstr ""
