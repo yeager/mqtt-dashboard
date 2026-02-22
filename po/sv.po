@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the mqtt-dashboard package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: mqtt-dashboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 06:25+0100\n"
+"POT-Creation-Date: 2026-02-22 11:05+0100\n"
 "PO-Revision-Date: 2026-02-18 09:21+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304968/sv/)\n"
@@ -104,11 +104,11 @@ msgstr "Översättningar"
 
 #: src/mqtt_dashboard/main.py:440
 msgid "Welcome"
-msgstr ""
+msgstr "Välkommen"
 
 #: src/mqtt_dashboard/main.py:445
 msgid "Welcome to MQTT Dashboard"
-msgstr ""
+msgstr "Välkommen till MQTT-kontrollpanel"
 
 #: src/mqtt_dashboard/main.py:446
 msgid ""
@@ -118,7 +118,12 @@ msgid ""
 "✓ Publish messages\n"
 "✓ Visual topic tree"
 msgstr ""
+"Övervaka MQTT-ämnen och meddelanden.\n"
+"\n"
+"✓ Prenumerera på MQTT-ämnen\n"
+"✓ Publicera meddelanden\n"
+"✓ Visuellt ämnesträd"
 
 #: src/mqtt_dashboard/main.py:447
 msgid "Get Started"
-msgstr ""
+msgstr "Kom igång"
