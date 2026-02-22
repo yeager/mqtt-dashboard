@@ -8,92 +8,113 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"POT-Creation-Date: 2026-02-22 06:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/mqtt_dashboard/main.py:127
+#: src/mqtt_dashboard/main.py:148
 msgid "Waiting..."
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:146
+#: src/mqtt_dashboard/main.py:167
 msgid "MQTT Dashboard"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:158
+#: src/mqtt_dashboard/main.py:179
 msgid "Save layout"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:165
+#: src/mqtt_dashboard/main.py:186
 msgid "Broker:"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:168
+#: src/mqtt_dashboard/main.py:189
 msgid "Port:"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:172 src/mqtt_dashboard/main.py:245
+#: src/mqtt_dashboard/main.py:193 src/mqtt_dashboard/main.py:266
 msgid "Connect"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:176 src/mqtt_dashboard/main.py:246
-#: src/mqtt_dashboard/main.py:274
+#: src/mqtt_dashboard/main.py:197 src/mqtt_dashboard/main.py:267
+#: src/mqtt_dashboard/main.py:295
 msgid "Disconnected"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:182
+#: src/mqtt_dashboard/main.py:203
 msgid "Subscribe:"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:190
+#: src/mqtt_dashboard/main.py:211
 msgid "Subscribe"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:197
+#: src/mqtt_dashboard/main.py:218
 msgid "Publish:"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:200
+#: src/mqtt_dashboard/main.py:221
 msgid "message"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:202
+#: src/mqtt_dashboard/main.py:223
 msgid "Send"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:213
+#: src/mqtt_dashboard/main.py:234
 msgid "Message Log"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:239
+#: src/mqtt_dashboard/main.py:260
 msgid "paho-mqtt not installed!"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:264
+#: src/mqtt_dashboard/main.py:285
 msgid "Disconnect"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:265
+#: src/mqtt_dashboard/main.py:286
 msgid "Connecting..."
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:268
+#: src/mqtt_dashboard/main.py:289
 msgid "Connected"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:381
+#: src/mqtt_dashboard/main.py:402
 msgid "translator-credits"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:382
+#: src/mqtt_dashboard/main.py:403
 msgid "MQTT dashboard with real-time monitoring"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:384
+#: src/mqtt_dashboard/main.py:405
 msgid "Translations"
+msgstr ""
+
+#: src/mqtt_dashboard/main.py:440
+msgid "Welcome"
+msgstr ""
+
+#: src/mqtt_dashboard/main.py:445
+msgid "Welcome to MQTT Dashboard"
+msgstr ""
+
+#: src/mqtt_dashboard/main.py:446
+msgid ""
+"Monitor MQTT topics and messages.\n"
+"\n"
+"✓ Subscribe to MQTT topics\n"
+"✓ Publish messages\n"
+"✓ Visual topic tree"
+msgstr ""
+
+#: src/mqtt_dashboard/main.py:447
+msgid "Get Started"
 msgstr ""
