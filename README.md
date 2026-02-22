@@ -1,24 +1,25 @@
 # MQTT Dashboard
 
-Real-time MQTT monitoring dashboard built with GTK4/Adwaita.
+MQTT topic dashboard for monitoring IoT devices.
 
-## Features
-- Connect to any MQTT broker
-- Subscribe to topics with wildcard support
-- Widget types: text, gauge, sparkline chart
-- Publish messages
-- Save/load dashboard layout
-- Message log
+Built with GTK4/Adwaita. Part of the [Danne L10n Suite](https://github.com/yeager/debian-repo).
 
-## Dependencies
+## Installation
+
+### Debian/Ubuntu
 ```bash
-pip install paho-mqtt
+sudo apt install mqtt-dashboard
 ```
 
-## Run
+### Fedora/RPM
 ```bash
-PYTHONPATH=src python3 -c "from mqtt_dashboard.main import main; main()"
+sudo dnf install mqtt-dashboard
 ```
 
 ## License
-GPL-3.0-or-later
+
+GPL-3.0
+
+## Author
+
+Daniel Nylander — [danielnylander.se](https://danielnylander.se)
