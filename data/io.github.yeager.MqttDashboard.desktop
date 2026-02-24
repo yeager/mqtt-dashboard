@@ -5,4 +5,5 @@ Exec=mqtt-dashboard
 Icon=io.github.yeager.MqttDashboard
 Terminal=false
 Type=Application
+StartupWMClass=io.github.yeager.MqttDashboard
 Categories=Network;Monitor;

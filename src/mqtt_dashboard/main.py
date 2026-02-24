@@ -410,6 +410,7 @@ class MqttDashboardWindow(Adw.ApplicationWindow):
 class MqttDashboardApp(Adw.Application):
     def __init__(self):
         super().__init__(application_id=APP_ID, flags=Gio.ApplicationFlags.FLAGS_NONE)
+        GLib.set_application_name(_("MQTT Dashboard"))
 
     def do_activate(self):
         win = self.props.active_window or MqttDashboardWindow(application=self)
