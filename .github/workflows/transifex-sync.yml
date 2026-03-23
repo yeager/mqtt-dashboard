@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 4 * * 1"
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -37,17 +40,19 @@ jobs:
             sleep 10
             curl -s -L -H "Authorization: Bearer $TX_TOKEN" \
               "https://rest.api.transifex.com/resource_translations_async_downloads/$DL_ID" \
-              -o "po/${lang}.po"
-            if head -1 "po/${lang}.po" | grep -q "^#"; then
+              -o "po/${lang}.po.new"
+            if head -1 "po/${lang}.po.new" | grep -q "^#"; then
+              mv "po/${lang}.po.new" "po/${lang}.po"
               echo "Downloaded ${lang}.po"
             else
-              rm -f "po/${lang}.po"
+              echo "Download failed for ${lang}, keeping existing file"
+              rm -f "po/${lang}.po.new"
             fi
           done
       - name: Commit translations
         run: |
           git config user.name "Daniel Nylander"
           git config user.email "daniel@danielnylander.se"
-          git add po/*.po
+          git add po/*.po po/*.pot
           git diff --cached --quiet || git commit -m "Update translations from Transifex"
           git push
