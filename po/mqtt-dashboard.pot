@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the mqtt-dashboard package.
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mqtt-dashboard\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 17:04+0100\n"
+"POT-Creation-Date: 2026-03-30 05:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Waiting..."
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:168
+#: src/mqtt_dashboard/main.py:168 src/mqtt_dashboard/main.py:413
 msgid "MQTT Dashboard"
 msgstr ""
 
@@ -98,15 +98,15 @@ msgstr ""
 msgid "Translations"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:441
+#: src/mqtt_dashboard/main.py:442
 msgid "Welcome"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:446
+#: src/mqtt_dashboard/main.py:447
 msgid "Welcome to MQTT Dashboard"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:447
+#: src/mqtt_dashboard/main.py:448
 msgid ""
 "Monitor MQTT topics and messages.\n"
 "\n"
@@ -115,6 +115,6 @@ msgid ""
 "✓ Visual topic tree"
 msgstr ""
 
-#: src/mqtt_dashboard/main.py:448
+#: src/mqtt_dashboard/main.py:449
 msgid "Get Started"
 msgstr ""
